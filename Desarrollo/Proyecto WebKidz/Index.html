@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Sitio web para ingles en infantes.">
+    <meta name="author" content="Justo Pastor Prado Amoretty">
+    <meta name="generator" content="Bondi 1.0.0">
+    <title>WebKidz</title>
+
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!--Referencia de estilos a carousel-->
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/carousel/">
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+   <!-- Estilos del Placeholder-->
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      .texto-banner-titulo {
+        background-color: rgba(38, 49, 59, 0.8); 
+        padding: 5px 20px 5px 20px;
+        text-align: justify;
+      }
+
+      .texto-banner-descripcion {
+        background-color: rgb(38, 49, 59, 0.8); 
+        padding: 5px 20px 5px 20px;
+        text-align: justify;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+
+    <!-- Referencia de estilo personalizado para la plantilla del Carrousel -->
+    <link href="css/carousel.css" rel="stylesheet">
+  
+  </head>
+  <body>
+    
+<header>
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top" >
+    <div class="container-fluid">
+      <a class=" logo navbar-brand" href="Index.html">
+        <img src="img/logo1.png" alt="Logo" style="height: 30px;">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav me-auto mb-2 mb-md-0">
+            <!--  <li class="nav-item">
+                <a class="nav-link" href="Acerca de.html" style="color: white; font-size: 20px;">Acerca de</a>
+              </li> -->
+         </ul>       
+      </div>
+    </div>
+  </nav>
+</header>
+
+<main>
+  <!-- Carousel de Imagenes de Dimensiones especificas-->
+  <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+
+    <!--Primera Imagen del Carousel "Aprende reconociendo tu entorno"-->
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="img/entorno.png" style="width: 100%; height: 100%;"/>
+        <div class="container">
+          <div class="carousel-caption text-start">
+            <h1 class="texto-banner-titulo">Learn by recognizing your surroundings</h1>
+            <p class="texto-banner-descripcion">Therefore, in the active exploration of their environment, the boy and the girl define their possibilities of development. Exercise, active life and in contact with nature, gives us the condition to become real human beings and generators of the world.</p>
+            <p><a class="btn btn-lg btn-primary" href="entorno.html" target="blank">Let's go there...</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Marketing messaging and featurettes
+  ================================================== -->
+  <!-- Wrap the rest of the page in another container to center all the content. -->
+
+  <div class="container marketing">
+
+    <!-- Three columns of text below the carousel -->
+    <div class="row">
+      <div class="col-lg-4">
+        <img src="img/numero.png" alt="entorno" style="height: 140px; width: 140px; ">
+        
+        <h2>Numbers</h2>
+        <p>You learn what numbers are by working a lot with sets of elements. Grouping them, joining them, counting them, moving them from one side to the other... The type of specific activity that will help learn numbers depends on what stage the child is at.</p>
+        <p><a class="btn btn-lg btn-primary" href="numeros.html">Let's go there&raquo;</a></p>
+      </div>
+      
+      <!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+        <img src="img/animales/Oveja.png" alt="entorno" style="height: 140px; width: 140px; ">
+        <h2>Animals</h2>
+        <p>Animals can be an important element for the child's development in all its aspects: physical, cognitive and emotional. The children observe the animals, they observe how they move, how they walk, how they eat... they receive information from them instinctively and little by little, with coexistence, they associate it with the different needs they have.</p>
+        <p><a class="btn btn-lg btn-primary" href="animales.html">Let's go there &raquo;</a></p>
+      </div>
+      
+      <!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+        <img src="img/colores.png" alt="entorno" style="height: 140px; width: 140px; ">
+
+        <h2>Colors</h2>
+        <p>Importance of identifying basic geometric figures in children. For our children, knowing the basic geometric figures, such as: squares, rectangles, circles and triangles, means for them to be able to establish relationships with their closest and most immediate environment.</p>
+        <p><a class="btn btn-lg btn-primary" href="colores.html">Let's go there &raquo;</a></p>
+      </div><!-- /.col-lg-4 -->
+    </div><!-- /.row -->
+
+
+    <!-- Información General de la mascota de nuestro sitio web -->
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading">Learn more about us</h2><br/>
+        <h2> <span class="text-muted">I know you will be interested!</span></h2>
+        <p class="lead">We are very motivated to start with this great teaching project on how children learn through the use of everyday objects at their fingertips.</p>
+      </div>
+      <div class="col-md-5">
+        <img src="img/logoOficial.png" alt="logoKawaii" style="height: 500px; width: 500px;">
+
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <!-- Aqui termina la informacion general -->
+
+  </div>
+  <!-- Fin del Contenedor -->
+
+</main>
+  <!-- FOOTER -->
+  <footer class="container">
+    <p class="float-end"><a href="#">Ir Arriba</a></p>
+    <p>&copy; 2022 Justo Pastor Prado Amoretty <a href="#">Privacidad</a> &middot; <a href="#">Terminos</a></p>
+  </footer>
+
+    <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+
+      
+  </body>
+</html>
